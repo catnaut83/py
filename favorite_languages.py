@@ -43,3 +43,25 @@ for name in favorite_language.keys():
 if 'erin' not in favorite_language.keys():
     print('Erin, please take our poll!')
 
+# Percorrendo as chaves de um dicionario -em ordem- usando um laço
+
+for name in sorted(favorite_language.keys()):
+    print(name.title() + ", thank you for taking the poll.")
+
+# Percorrendo todos os valores de um dicionario com um laço -sem as chaves-
+
+print("\nThe following languages have been mentioned:")
+
+for language in favorite_language.values():
+    print(language.title())
+
+# Para verificar o mesmo caso sem repetiçõe usamos o modo conjunto
+# denominado (set):
+print("\nNO REPEART:")
+print("The followinf languages have been mentoned:")
+
+for language in set(favorite_language.values()):
+    print(language.title())
+
+
+
