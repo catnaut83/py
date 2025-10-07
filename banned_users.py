@@ -3,7 +3,7 @@
 banned_users = ['andrew', 'carolina', 'david']
 
 user = 'marie'
-
+#Booleano
 user_active = True
 
 if user not in banned_users:

@@ -17,3 +17,4 @@ for foodm in my_foods:
 print("\nMy friends favorite foods are:")
 for foodf in friend_foods:
     print(foodf)
+

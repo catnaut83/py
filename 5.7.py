@@ -21,3 +21,5 @@ if 'morango' in favorite_fruits:
 if 'maçã' in favorite_fruits:
     print("Voce realmente gosta de maçãs.")
 
+
+

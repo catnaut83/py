@@ -7,13 +7,14 @@ usuários!
 mensagem correta seja exibida.
 '''
 
+'''
+ESTE EXERCICIOS NAO FAZ SENTIDO E NAO TEM SOLUÇÃO CLARA NEM VINDA DO AUTOR
+'''
+
 #usernames = []
 
 usernames = ['mega_monsterhigh', 'titan2099', '3i/atlas', 'matrix_dominator', 'lunarsense890']
 
-
-for user in usernames:
-    print('usuario ' + user)
 
 for user in usernames:
     print('Este usuario ' + user + ' sera removido!')

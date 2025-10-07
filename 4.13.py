@@ -21,3 +21,4 @@ pratos = ('lamen', 'frango milanesa', 'feijoada', 'moqueca', 'picanha na pedra')
 print('## Cardapio revisado: ##')
 for prato in pratos:
     print(prato)
+

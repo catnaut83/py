@@ -27,3 +27,5 @@ print("Vamos comer uma pizza hoje?")
 for pizzaf in friend_pizzas:
     print(pizzaf.title() + " Voce gosta dessas ne? ")
     print("Gosto muito de pizzas brasileiras")
+
+    

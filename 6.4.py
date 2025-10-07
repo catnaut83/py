@@ -29,3 +29,5 @@ glos['IA'] = 'Esse é o objetivo!'
 for word, sign in glos.items():
     print(word.title() + ": " + sign)
 
+
+

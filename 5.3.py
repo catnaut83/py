@@ -9,7 +9,7 @@ pontos.
 falhe. (A versão que falha não terá nenhuma saída.)
 '''
 
-alien_color = 'yellow'
+alien_color = 'green'
 
 if alien_color == 'red':
     points = 0

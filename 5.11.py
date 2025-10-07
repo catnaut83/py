@@ -20,6 +20,3 @@ for num in nums:
         print(str(num)+'rd')
     else:
         print(str(num)+'th')
-
-
-import this

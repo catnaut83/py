@@ -5,3 +5,5 @@ exibir os números de sua lista.
 
 for num in list(range(3, 33, 3)):
     print(num)
+
+    

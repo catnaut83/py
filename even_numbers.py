@@ -35,3 +35,5 @@ print(max(digits))
 
 print(sum(digits))
 
+
+
