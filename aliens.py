@@ -37,3 +37,22 @@ print('...')
 # Mostra quantos alienígenas foram criados
 print("Total number os aliens: " + str(len(aliens)))
 
+
+# Modificar uma fatia dos alienigenas
+
+for alien in aliens[0:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+        print('Novo alien amarelo: ' + str(alien))
+    elif alien['color'] == 'yellow':
+        aliens['color'] = 'red'
+        alien['speed'] = 'fast'
+        alien['points'] = 15
+        print('Novo alien vermelho: ' + str(alien))
+
+# Mostra os 5 primeiros alienígenas
+for alien in aliens[:5]:
+    print(alien)
+print('...')

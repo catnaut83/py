@@ -64,4 +64,24 @@ for language in set(favorite_language.values()):
     print(language.title())
 
 
+#Outra maneira de demonstrar valores associados em dicionarios com listas:
+
+favorite_language = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+    'carol': ['pyhton', 'c'],
+}
+
+for name, languages in favorite_language.items():
+    if len(languages) > 1:
+        print('\n' + name.title() + "'s favorite languages are:")
+    else:
+        print('\n' + name.title() + "'s favorite languages is:")
+    for language in languages:
+        print('\t' + language.title())
+
+
+
 
