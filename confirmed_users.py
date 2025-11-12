@@ -8,6 +8,8 @@ confirmed_users = []
 # Transfere cada usuário verificado para a lista de usuários confirmados
 
 while unconfirmed_users:
+    # Aqui fizemos um pop para remover o usuario que sera transferido para
+    # verificado
     current_user = unconfirmed_users.pop()
 
     print("Verifying user:" + current_user.title())
